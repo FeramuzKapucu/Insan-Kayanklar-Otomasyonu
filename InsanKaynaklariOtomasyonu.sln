@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsanKaynaklariOtomasyonu.WinFormUI", "InsanKaynaklariOtomasyonu.WinFormUI\InsanKaynaklariOtomasyonu.WinFormUI.csproj", "{96DF3F3B-12CF-4065-A6EF-44A6B6DA89C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsanKaynaklari.ORM", "InsanKaynaklari.ORM\InsanKaynaklari.ORM.csproj", "{6BC7D7AA-CB6C-465A-B072-99882B85F1EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96DF3F3B-12CF-4065-A6EF-44A6B6DA89C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96DF3F3B-12CF-4065-A6EF-44A6B6DA89C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96DF3F3B-12CF-4065-A6EF-44A6B6DA89C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96DF3F3B-12CF-4065-A6EF-44A6B6DA89C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BC7D7AA-CB6C-465A-B072-99882B85F1EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BC7D7AA-CB6C-465A-B072-99882B85F1EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BC7D7AA-CB6C-465A-B072-99882B85F1EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BC7D7AA-CB6C-465A-B072-99882B85F1EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {921FBB3E-EB4A-4915-86AD-86F7E0FC95CE}
+	EndGlobalSection
+EndGlobal

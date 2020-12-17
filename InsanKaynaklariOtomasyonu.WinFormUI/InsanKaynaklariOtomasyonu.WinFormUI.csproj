@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{96DF3F3B-12CF-4065-A6EF-44A6B6DA89C9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>InsanKaynaklariOtomasyonu.WinFormUI</RootNamespace>
+    <AssemblyName>InsanKaynaklariOtomasyonu.WinFormUI</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddAdmin.Designer.cs">
+      <DependentUpon>AddAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddApptitudeQuestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddApptitudeQuestion.Designer.cs">
+      <DependentUpon>AddApptitudeQuestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddJob.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddJob.Designer.cs">
+      <DependentUpon>AddJob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddJobRequirement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddJobRequirement.Designer.cs">
+      <DependentUpon>AddJobRequirement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddPersonalityQuestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddPersonalityQuestion.Designer.cs">
+      <DependentUpon>AddPersonalityQuestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminLogin.Designer.cs">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminMain.Designer.cs">
+      <DependentUpon>AdminMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddApptitudeTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddApptitudeTypes.Designer.cs">
+      <DependentUpon>AddApptitudeTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeApptitudeInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeApptitudeInformation.Designer.cs">
+      <DependentUpon>ChangeApptitudeInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePersonalInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePersonalInformation.Designer.cs">
+      <DependentUpon>ChangePersonalInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyMessages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyMessages.Designer.cs">
+      <DependentUpon>MyMessages.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateAdminPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateAdminPassword.Designer.cs">
+      <DependentUpon>UpdateAdminPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewCandidate%27sProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewCandidate%27sProfile.Designer.cs">
+      <DependentUpon>ViewCandidate%27sProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TakeAnExam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TakeAnExam.Designer.cs">
+      <DependentUpon>TakeAnExam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TakeAnExam2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TakeAnExam2.Designer.cs">
+      <DependentUpon>TakeAnExam2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserRegister.Designer.cs">
+      <DependentUpon>UserRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserLogin.Designer.cs">
+      <DependentUpon>UserLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserMain.Designer.cs">
+      <DependentUpon>UserMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserRegister2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserRegister2.Designer.cs">
+      <DependentUpon>UserRegister2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserRegister3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserRegister3.Designer.cs">
+      <DependentUpon>UserRegister3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewApplicableJobs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewApplicableJobs.Designer.cs">
+      <DependentUpon>ViewApplicableJobs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewApplicationForJobs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewApplicationForJobs.Designer.cs">
+      <DependentUpon>ViewApplicationForJobs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewApptitudeQuestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewApptitudeQuestion.Designer.cs">
+      <DependentUpon>ViewApptitudeQuestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewIslemKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewIslemKayit.Designer.cs">
+      <DependentUpon>ViewIslemKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewJobDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewJobDetails.Designer.cs">
+      <DependentUpon>ViewJobDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewMessagesRecords.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewMessagesRecords.Designer.cs">
+      <DependentUpon>ViewMessagesRecords.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewMyApplication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewMyApplication.Designer.cs">
+      <DependentUpon>ViewMyApplication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewPersonalityQuestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewPersonalityQuestion.Designer.cs">
+      <DependentUpon>ViewPersonalityQuestion.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddAdmin.resx">
+      <DependentUpon>AddAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddApptitudeQuestion.resx">
+      <DependentUpon>AddApptitudeQuestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddJob.resx">
+      <DependentUpon>AddJob.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddJobRequirement.resx">
+      <DependentUpon>AddJobRequirement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddPersonalityQuestion.resx">
+      <DependentUpon>AddPersonalityQuestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminLogin.resx">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminMain.resx">
+      <DependentUpon>AdminMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddApptitudeTypes.resx">
+      <DependentUpon>AddApptitudeTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeApptitudeInformation.resx">
+      <DependentUpon>ChangeApptitudeInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangePersonalInformation.resx">
+      <DependentUpon>ChangePersonalInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyMessages.resx">
+      <DependentUpon>MyMessages.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TakeAnExam.resx">
+      <DependentUpon>TakeAnExam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TakeAnExam2.resx">
+      <DependentUpon>TakeAnExam2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateAdminPassword.resx">
+      <DependentUpon>UpdateAdminPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserRegister.resx">
+      <DependentUpon>UserRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserLogin.resx">
+      <DependentUpon>UserLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserMain.resx">
+      <DependentUpon>UserMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserRegister2.resx">
+      <DependentUpon>UserRegister2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserRegister3.resx">
+      <DependentUpon>UserRegister3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewApplicableJobs.resx">
+      <DependentUpon>ViewApplicableJobs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewApplicationForJobs.resx">
+      <DependentUpon>ViewApplicationForJobs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewApptitudeQuestion.resx">
+      <DependentUpon>ViewApptitudeQuestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewCandidate%27sProfile.resx">
+      <DependentUpon>ViewCandidate%27sProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewIslemKayit.resx">
+      <DependentUpon>ViewIslemKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ViewJobDetails.resx">
+      <DependentUpon>ViewJobDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewMessagesRecords.resx">
+      <DependentUpon>ViewMessagesRecords.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewMyApplication.resx">
+      <DependentUpon>ViewMyApplication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewPersonalityQuestion.resx">
+      <DependentUpon>ViewPersonalityQuestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\InsanKaynaklari.ORM\InsanKaynaklari.ORM.csproj">
+      <Project>{6BC7D7AA-CB6C-465A-B072-99882B85F1EA}</Project>
+      <Name>InsanKaynaklari.ORM</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

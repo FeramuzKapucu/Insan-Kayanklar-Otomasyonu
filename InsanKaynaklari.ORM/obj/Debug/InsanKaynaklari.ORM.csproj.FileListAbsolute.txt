@@ -1,0 +1,6 @@
+C:\Users\FERAMUZ\source\repos\InsanKaynaklariOtomasyonu\InsanKaynaklari.ORM\bin\Debug\InsanKaynaklari.ORM.dll
+C:\Users\FERAMUZ\source\repos\InsanKaynaklariOtomasyonu\InsanKaynaklari.ORM\bin\Debug\InsanKaynaklari.ORM.pdb
+C:\Users\FERAMUZ\source\repos\InsanKaynaklariOtomasyonu\InsanKaynaklari.ORM\obj\Debug\InsanKaynaklari.ORM.csprojAssemblyReference.cache
+C:\Users\FERAMUZ\source\repos\InsanKaynaklariOtomasyonu\InsanKaynaklari.ORM\obj\Debug\InsanKaynaklari.ORM.csproj.CoreCompileInputs.cache
+C:\Users\FERAMUZ\source\repos\InsanKaynaklariOtomasyonu\InsanKaynaklari.ORM\obj\Debug\InsanKaynaklari.ORM.dll
+C:\Users\FERAMUZ\source\repos\InsanKaynaklariOtomasyonu\InsanKaynaklari.ORM\obj\Debug\InsanKaynaklari.ORM.pdb
